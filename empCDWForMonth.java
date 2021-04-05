@@ -10,12 +10,15 @@ public class empCDWForMonth{
 		for(int day=1;day<=workingDays;day++){
 		switch (value){
 			case 1:
+				System.out.println("this partime hours");
 				empHr=4;
 				break;
 			case 2:
+				System.out.println("this fulltime hours");
 				empHr=8;
 				break;
 			case 3:
+				System.out.println("employ is absent");
 				empHr=0;
 			default:
 				/*nothing*/
